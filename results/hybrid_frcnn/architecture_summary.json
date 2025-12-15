@@ -1,0 +1,14 @@
+{
+  "model": "Faster R-CNN (Hybrid)",
+  "backbone": "ResNet-50 FPN",
+  "strategy": "Keep baseline's successful architecture",
+  "improvements": [
+    "Moderate augmentation (flip + mild color jitter only)",
+    "Cosine annealing LR with warmup",
+    "Keep SGD optimizer (worked well in baseline)",
+    "Same training length (10 epochs)"
+  ],
+  "num_classes": 13,
+  "total_parameters": 41355536,
+  "trainable_parameters": 41133136
+}

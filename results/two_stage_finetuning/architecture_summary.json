@@ -1,0 +1,25 @@
+{
+  "model": "Faster R-CNN (Two-Stage Fine-Tuned)",
+  "backbone": "ResNet-50 FPN",
+  "training_strategy": "Two-stage fine-tuning",
+  "stage1": {
+    "epochs": 3,
+    "strategy": "Freeze backbone, oversample failing classes",
+    "failing_classes": [
+      "Human arm",
+      "Human hair",
+      "Human hand",
+      "Human head"
+    ],
+    "oversample_rate": 3,
+    "lr": 0.01
+  },
+  "stage2": {
+    "epochs": 7,
+    "strategy": "Unfreeze all, balanced training",
+    "lr": "0.005 \u2192 0.0005"
+  },
+  "num_classes": 13,
+  "total_parameters": 41355536,
+  "trainable_parameters": 41133136
+}

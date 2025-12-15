@@ -1,0 +1,11 @@
+{
+  "model": "Faster R-CNN",
+  "backbone": "ResNet-50 FPN",
+  "num_classes": 13,
+  "input_features": 1024,
+  "total_parameters": 41355536,
+  "trainable_parameters": 41133136,
+  "pretrained": true,
+  "modifications": "Replaced box predictor head for 12 body part classes"
+}
+ 

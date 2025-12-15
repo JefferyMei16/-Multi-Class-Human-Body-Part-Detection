@@ -1,0 +1,194 @@
+{
+  "strategy": "Two-Stage Fine-Tuning + Adaptive Thresholds + TTA",
+  "total_detections": 21286,
+  "total_ground_truths": 7380,
+  "mean_precision": 0.13124071654173572,
+  "mean_recall": 0.336720120413746,
+  "mean_f1_score": 0.174820365381811,
+  "mAP@0.5": 0.13124071654173572,
+  "inference_time_seconds": 230.70110249519348,
+  "comparative_analysis": {
+    "Human arm": {
+      "train_boxes": 2552,
+      "train_percentage": 6.967727843608365,
+      "detections": 1881,
+      "detection_percentage": 8.836794136991449,
+      "ratio": 1.2682461679523855
+    },
+    "Human body": {
+      "train_boxes": 2684,
+      "train_percentage": 7.328127559657075,
+      "detections": 1722,
+      "detection_percentage": 8.089824297660433,
+      "ratio": 1.1039415228245566
+    },
+    "Human ear": {
+      "train_boxes": 4194,
+      "train_percentage": 11.450881887183968,
+      "detections": 1614,
+      "detection_percentage": 7.58244855773748,
+      "ratio": 0.6621715805333641
+    },
+    "Human eye": {
+      "train_boxes": 3393,
+      "train_percentage": 9.263910882979303,
+      "detections": 2044,
+      "detection_percentage": 9.602555670393686,
+      "ratio": 1.0365552725724703
+    },
+    "Human face": {
+      "train_boxes": 2979,
+      "train_percentage": 8.133566319008354,
+      "detections": 1315,
+      "detection_percentage": 6.177769425913747,
+      "ratio": 0.7595400570443669
+    },
+    "Human foot": {
+      "train_boxes": 2127,
+      "train_percentage": 5.80734996996669,
+      "detections": 1698,
+      "detection_percentage": 7.977074133233112,
+      "ratio": 1.3736169121005921
+    },
+    "Human hair": {
+      "train_boxes": 2170,
+      "train_percentage": 5.924752907770436,
+      "detections": 638,
+      "detection_percentage": 2.997275204359673,
+      "ratio": 0.5058903301146422
+    },
+    "Human hand": {
+      "train_boxes": 2933,
+      "train_percentage": 8.007972478567138,
+      "detections": 1659,
+      "detection_percentage": 7.793855116038712,
+      "ratio": 0.9732619757246296
+    },
+    "Human head": {
+      "train_boxes": 2295,
+      "train_percentage": 6.266040517665046,
+      "detections": 2829,
+      "detection_percentage": 13.290425631870715,
+      "ratio": 2.1210245280736246
+    },
+    "Human leg": {
+      "train_boxes": 3099,
+      "train_percentage": 8.46120242450718,
+      "detections": 360,
+      "detection_percentage": 1.691252466409847,
+      "ratio": 0.19988322954090695
+    },
+    "Human mouth": {
+      "train_boxes": 4225,
+      "train_percentage": 11.535521214437832,
+      "detections": 2328,
+      "detection_percentage": 10.936765949450344,
+      "ratio": 0.9480946500936527
+    },
+    "Human nose": {
+      "train_boxes": 3975,
+      "train_percentage": 10.85294599464861,
+      "detections": 3198,
+      "detection_percentage": 15.023959409940806,
+      "ratio": 1.3843208486754515
+    }
+  },
+  "per_class_metrics": {
+    "Human arm": {
+      "precision": 0.07017543859649122,
+      "recall": 0.2553191489361702,
+      "f1_score": 0.11009174311926605,
+      "true_positives": 132,
+      "false_positives": 1749,
+      "false_negatives": 385
+    },
+    "Human body": {
+      "precision": 0.10743321718931476,
+      "recall": 0.32062391681109187,
+      "f1_score": 0.16093953892996954,
+      "true_positives": 185,
+      "false_positives": 1537,
+      "false_negatives": 392
+    },
+    "Human ear": {
+      "precision": 0.23358116480793062,
+      "recall": 0.43990665110851807,
+      "f1_score": 0.30513961958721164,
+      "true_positives": 377,
+      "false_positives": 1237,
+      "false_negatives": 480
+    },
+    "Human eye": {
+      "precision": 0.10273972602739725,
+      "recall": 0.32967032967032966,
+      "f1_score": 0.1566579634464752,
+      "true_positives": 210,
+      "false_positives": 1834,
+      "false_negatives": 427
+    },
+    "Human face": {
+      "precision": 0.12547528517110265,
+      "recall": 0.25984251968503935,
+      "f1_score": 0.16923076923076924,
+      "true_positives": 165,
+      "false_positives": 1150,
+      "false_negatives": 470
+    },
+    "Human foot": {
+      "precision": 0.1154299175500589,
+      "recall": 0.5311653116531165,
+      "f1_score": 0.1896468311562651,
+      "true_positives": 196,
+      "false_positives": 1502,
+      "false_negatives": 173
+    },
+    "Human hair": {
+      "precision": 0.11285266457680251,
+      "recall": 0.15031315240083507,
+      "f1_score": 0.12891674127126232,
+      "true_positives": 72,
+      "false_positives": 566,
+      "false_negatives": 407
+    },
+    "Human hand": {
+      "precision": 0.1024713682941531,
+      "recall": 0.28052805280528054,
+      "f1_score": 0.15011037527593818,
+      "true_positives": 170,
+      "false_positives": 1489,
+      "false_negatives": 436
+    },
+    "Human head": {
+      "precision": 0.05973842347119123,
+      "recall": 0.36899563318777295,
+      "f1_score": 0.1028293276543961,
+      "true_positives": 169,
+      "false_positives": 2660,
+      "false_negatives": 289
+    },
+    "Human leg": {
+      "precision": 0.26666666666666666,
+      "recall": 0.1553398058252427,
+      "f1_score": 0.19631901840490795,
+      "true_positives": 96,
+      "false_positives": 264,
+      "false_negatives": 522
+    },
+    "Human mouth": {
+      "precision": 0.13917525773195877,
+      "recall": 0.3898916967509025,
+      "f1_score": 0.20512820512820515,
+      "true_positives": 324,
+      "false_positives": 2004,
+      "false_negatives": 507
+    },
+    "Human nose": {
+      "precision": 0.1391494684177611,
+      "recall": 0.5590452261306532,
+      "f1_score": 0.2228342513770656,
+      "true_positives": 445,
+      "false_positives": 2753,
+      "false_negatives": 351
+    }
+  }
+}

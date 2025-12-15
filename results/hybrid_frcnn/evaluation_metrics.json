@@ -1,0 +1,144 @@
+{
+  "total_detections": 13867,
+  "baseline_detections": 8641,
+  "detection_change": 5226,
+  "mean_precision": 0.13153511372847457,
+  "mean_recall": 0.24249287813850862,
+  "f1_score": 0.1705558353805629,
+  "mAP@0.5": 0.13153511372847457,
+  "per_class_metrics": {
+    "Human arm": {
+      "detections": 728,
+      "baseline_detections": 452,
+      "change": 276,
+      "precision": 0.057692307692307696,
+      "recall": 0.08123791102514506,
+      "avg_confidence": 0.6026852778517283,
+      "true_positives": 42,
+      "false_positives": 686,
+      "false_negatives": 475
+    },
+    "Human body": {
+      "detections": 1383,
+      "baseline_detections": 756,
+      "change": 627,
+      "precision": 0.11424439624005785,
+      "recall": 0.2738301559792028,
+      "avg_confidence": 0.6317750527991476,
+      "true_positives": 158,
+      "false_positives": 1225,
+      "false_negatives": 419
+    },
+    "Human ear": {
+      "detections": 2228,
+      "baseline_detections": 1273,
+      "change": 955,
+      "precision": 0.19075403949730702,
+      "recall": 0.4959159859976663,
+      "avg_confidence": 0.7024594193568564,
+      "true_positives": 425,
+      "false_positives": 1803,
+      "false_negatives": 432
+    },
+    "Human eye": {
+      "detections": 620,
+      "baseline_detections": 245,
+      "change": 375,
+      "precision": 0.11774193548387096,
+      "recall": 0.11459968602825746,
+      "avg_confidence": 0.5876595090473852,
+      "true_positives": 73,
+      "false_positives": 547,
+      "false_negatives": 564
+    },
+    "Human face": {
+      "detections": 716,
+      "baseline_detections": 947,
+      "change": -231,
+      "precision": 0.12430167597765363,
+      "recall": 0.14015748031496064,
+      "avg_confidence": 0.5506778513419561,
+      "true_positives": 89,
+      "false_positives": 627,
+      "false_negatives": 546
+    },
+    "Human foot": {
+      "detections": 599,
+      "baseline_detections": 631,
+      "change": -32,
+      "precision": 0.2921535893155259,
+      "recall": 0.4742547425474255,
+      "avg_confidence": 0.791725084757765,
+      "true_positives": 175,
+      "false_positives": 424,
+      "false_negatives": 194
+    },
+    "Human hair": {
+      "detections": 313,
+      "baseline_detections": 140,
+      "change": 173,
+      "precision": 0.10862619808306709,
+      "recall": 0.0709812108559499,
+      "avg_confidence": 0.6053960201458428,
+      "true_positives": 34,
+      "false_positives": 279,
+      "false_negatives": 445
+    },
+    "Human hand": {
+      "detections": 1385,
+      "baseline_detections": 747,
+      "change": 638,
+      "precision": 0.0736462093862816,
+      "recall": 0.16831683168316833,
+      "avg_confidence": 0.6611093793965419,
+      "true_positives": 102,
+      "false_positives": 1283,
+      "false_negatives": 504
+    },
+    "Human head": {
+      "detections": 402,
+      "baseline_detections": 14,
+      "change": 388,
+      "precision": 0.07213930348258707,
+      "recall": 0.06331877729257641,
+      "avg_confidence": 0.5790644166481436,
+      "true_positives": 29,
+      "false_positives": 373,
+      "false_negatives": 429
+    },
+    "Human leg": {
+      "detections": 1267,
+      "baseline_detections": 934,
+      "change": 333,
+      "precision": 0.15232833464877663,
+      "recall": 0.3122977346278317,
+      "avg_confidence": 0.6816781871697051,
+      "true_positives": 193,
+      "false_positives": 1074,
+      "false_negatives": 425
+    },
+    "Human mouth": {
+      "detections": 2271,
+      "baseline_detections": 1081,
+      "change": 1190,
+      "precision": 0.1448701012769705,
+      "recall": 0.39590854392298436,
+      "avg_confidence": 0.606711607601925,
+      "true_positives": 329,
+      "false_positives": 1942,
+      "false_negatives": 502
+    },
+    "Human nose": {
+      "detections": 1955,
+      "baseline_detections": 1421,
+      "change": 534,
+      "precision": 0.129923273657289,
+      "recall": 0.31909547738693467,
+      "avg_confidence": 0.5970453414160882,
+      "true_positives": 254,
+      "false_positives": 1701,
+      "false_negatives": 542
+    }
+  },
+  "threshold": 0.5
+}
