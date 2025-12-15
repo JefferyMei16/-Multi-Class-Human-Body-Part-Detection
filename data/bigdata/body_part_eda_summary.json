@@ -1,0 +1,95 @@
+{
+  "project": "Body Part Detection",
+  "dataset_info": {
+    "total_images": 16935,
+    "total_unique_images": 9199,
+    "total_annotations": 36626,
+    "num_classes": 12,
+    "classes": [
+      "Human arm",
+      "Human body",
+      "Human ear",
+      "Human eye",
+      "Human face",
+      "Human foot",
+      "Human hair",
+      "Human hand",
+      "Human head",
+      "Human leg",
+      "Human mouth",
+      "Human nose"
+    ],
+    "avg_boxes_per_image": 2.1627398878063184
+  },
+  "class_distribution": {
+    "images_per_class": {
+      "Human arm": 793,
+      "Human body": 1074,
+      "Human ear": 2190,
+      "Human eye": 1331,
+      "Human face": 1370,
+      "Human foot": 969,
+      "Human hair": 1053,
+      "Human hand": 1184,
+      "Human head": 1053,
+      "Human leg": 1066,
+      "Human mouth": 2577,
+      "Human nose": 2275
+    },
+    "boxes_per_class": {
+      "Human eye": 3393,
+      "Human ear": 4194,
+      "Human nose": 3975,
+      "Human mouth": 4225,
+      "Human hand": 2933,
+      "Human foot": 2127,
+      "Human arm": 2552,
+      "Human leg": 3099,
+      "Human face": 2979,
+      "Human head": 2295,
+      "Human body": 2684,
+      "Human hair": 2170
+    }
+  },
+  "image_statistics": {
+    "width": {
+      "min": 346,
+      "max": 1024,
+      "mean": 941.912,
+      "median": 1024.0,
+      "std": 138.10311578430566
+    },
+    "height": {
+      "min": 317,
+      "max": 1024,
+      "mean": 821.856,
+      "median": 768.0,
+      "std": 154.32253107480236
+    },
+    "aspect_ratio": {
+      "min": 0.337890625,
+      "max": 3.230283911671924,
+      "mean": 1.2093099380513002,
+      "median": 1.3333333333333333,
+      "std": 0.3481691003218443
+    },
+    "file_size_mb": {
+      "min": 0.019995689392089844,
+      "max": 1.6724739074707031,
+      "mean": 0.26896615664164225,
+      "median": 0.21634960174560547
+    }
+  },
+  "quality_issues": {
+    "small_images": 0,
+    "large_images": 0,
+    "extreme_aspect_ratios": 37,
+    "grayscale_images": 276,
+    "corrupted_files": 0
+  },
+  "file_paths": {
+    "images": "/root/autodl-tmp/final/data/bigdata/body_part_images",
+    "annotations": "/root/autodl-tmp/final/data/bigdata/body_part_annotations",
+    "coco_json": "/root/autodl-tmp/final/data/bigdata/body_part_annotations/labels.json"
+  }
+}
